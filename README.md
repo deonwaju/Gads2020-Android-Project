@@ -1,15 +1,19 @@
-# GADS2020-LEADERBOARD-APP - Work in Progress :wrench: :hammer:
-This app interacts with GADS 2020 api and displays a list of Top 20 Learners in Learning Leaders' category and Top 20 Learners in the Skill IQ Leaders' category  
+# GADS2020-Android-project - Work in Progress :wrench: :hammer:
+This app fetches data from GADS 2020 api, and displays the list of the Top 20 Learners in the Learning Leader's category, and also displays a list of the Top 20 Learners in the Skill IQ Leader's category on switching to the next tab.
 
 ### Key concepts covered
-* Android Networking 
 * MVVM Architecture
+* Android Networking 
 * DI
 
 
-I have used the following components in development
+The following components were used in development
 * ViewModel to manage UI's data in a lifecycle concious way
+* Dependency injection.
 * LiveData to handle data in lifecyle-aware manner helping to reduce memory leaks and ensure the UI is always up to date with the data
+
+
+####Images
 
 ## User interface
 #### Launch/Splash Screen
