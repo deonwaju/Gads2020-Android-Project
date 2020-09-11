@@ -1,4 +1,4 @@
-# GADS2020-Android-project - Work in Progress :wrench: :hammer:
+# GADS2020-Android-project
 This app fetches data from GADS 2020 api, and displays the list of the Top 20 Learners in the Learning Leader's category, and also displays a list of the Top 20 Learners in the Skill IQ Leader's category on switching to the next tab.
 
 ### Key concepts covered
@@ -28,9 +28,5 @@ Top 20 learning and Top 20 skill IQ leaders screens populated with data respecti
 
 #### Project Submit screen
 
-
 <image src="snapshots/submit1.png" height="600px" />
 
-#### Additional Features - uncomplete
-* Offline First - add Room to support offline caching pf data
-* Synchronize data :repeat: - add WorkManager to sysnchronize data with remote data
