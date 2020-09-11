@@ -27,12 +27,6 @@ Top 20 learning and Top 20 skill IQ leaders screens populated with data respecti
 
 <image src="snapshots/submit1.png" height="600px" />
 
-#### Network Error and Server Error
-No internet screen  and server response error screens respectively 
-
-
-<image src="snapshots/not_internet.png" height="600px" />   <image src="snapshots/error.png" height="600px" />
-
 #### Additional Features - uncomplete
 * Offline First - add Room to support offline caching pf data
 * Synchronize data :repeat: - add WorkManager to sysnchronize data with remote data
