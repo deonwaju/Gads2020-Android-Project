@@ -12,8 +12,7 @@ The following components were used in development
 * Dependency injection.
 * LiveData to handle data in lifecyle-aware manner helping to reduce memory leaks and ensure the UI is always up to date with the data
 
-
-##Images
+## Images
 
 ## User interface
 #### Launch/Splash Screen
