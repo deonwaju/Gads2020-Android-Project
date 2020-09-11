@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gads2020.damolaolarewaju.testprojectgads">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:name="gads2020.damolaolarewaju.testprojectgads.App"
+        android:allowBackup="true"
+        android:icon="@drawable/splash_gads"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/splash_gads"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="gads2020.damolaolarewaju.testprojectgads.ui.views.activity.submit.SubmitActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name="gads2020.damolaolarewaju.testprojectgads.ui.views.activity.splashscreen.SplashActivity"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="gads2020.damolaolarewaju.testprojectgads.ui.views.activity.home.HomeActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+    </application>
+
+</manifest>
